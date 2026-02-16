@@ -1,0 +1,175 @@
+/* Estilos Gerais */
+body {
+    font-size: 15px;
+    color: white;
+    font-family: 'Georgia', serif;
+    line-height: 1.7;
+    background: #0f3f6c;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5em;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: black;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 3px solid black;
+    padding-bottom: 0.3em;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1em;
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+/* Listas */
+ul, ol {
+    font-size: 1em;
+    color: black;
+    line-height: 1.8;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    margin-bottom: 0.5em;
+    color: black
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: underline;
+    font-weight: normal;
+    background-color: #00000017;
+}
+
+    a:hover {
+        color: #0052a3;
+    }
+
+/* Cabeçalho */
+header {
+    background-color: #555;
+    color: white;
+    padding: 1.5em;
+    margin: -20px -20px 1.5em -20px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+    header h1 {
+        color: white;
+        margin: 0;
+    }
+
+    header p {
+        font-size: 1em;
+        color: #ecf0f1;
+        font-style: italic;
+        margin: 0.5em 0 0 0;
+    }
+
+/* Rodapé */
+footer {
+    background-color: #555;
+    color: #ecf0f1;
+    text-align: left;
+    margin: 2em -20px -20px -20px;
+    padding: 1.5em;
+    font-size: 0.9em;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+/* Navegação */
+nav {
+    background-color: #78b9fa;
+    border: 2px solid #bdc3c7;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+    nav h2 {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+        color: #34495e;
+    }
+
+    nav ul {
+        list-style: none;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin-bottom: 0.5em;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+
+/* Seções e Artigos */
+section {
+    margin-bottom: 1.5em;
+}
+
+article {
+    line-height: 1.8;
+    background-color: white;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    border: 1px solid #ddd;
+}
+
+/* Imagens */
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1.5em auto;
+    border: 1px solid #ddd;
+    background-color: black;
+}
+
+/* Ênfase de Texto */
+strong {
+    font-weight: bold;
+    color: black;
+}
+
+em {
+    font-style: italic;
+    color: #555;
+}
+
+/* Main */
+main {
+    margin: 1.5em 0;
+}
